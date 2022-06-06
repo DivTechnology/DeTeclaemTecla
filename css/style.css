@@ -1,0 +1,175 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e2e8f083; /*fundo*/
+}
+
+/*redes sociais*****************/
+
+/*seta pra cima*/
+#cima {
+    position: fixed;
+    width: 63px; /*largura*/
+    height: 33px;
+    bottom: 75px;
+    right: 10px;
+}
+/*zap*/
+#wp-icon {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    bottom: 25px;
+    right: 18px;
+}
+
+/*inst*/
+#inst {
+    position: fixed;
+    width: 33px;
+    height: 33px;
+    bottom: 75px;
+    right: 24px;
+}
+
+/*youtube*/
+#youtube {
+    position: fixed;
+    width: 70px;
+    height: 60px;
+    bottom: 103px;
+    right: 5px;
+}
+/*fim redes sociais **********************/
+
+
+/*-------------------*/
+.video {
+
+    width: 360px;
+    margin: 2em auto;
+}
+
+/*----------------------*/
+
+
+.shadow {
+    box-shadow: 1px 1px 6px rgb(116, 119, 119);
+}
+
+
+/*slides ----------------------*/
+/*slide 1*/
+#primeiro-slide {
+    width: 100%;
+    height: 400px;
+    background: url(../imagens/banner\ 01.jpg) no-repeat center center #000000;
+}
+
+
+/*slide 2*/
+#segundo-slide {
+    width: 100%;
+    height: 400px;
+    
+    /*repetição da mesma iagem*/
+    background: url(../imagens/banner\ 02.jpg) no-repeat center center #000000;
+}
+
+/*--------------------------*/
+
+a { text-decoration: none; }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/*cor do texto menu*/
+a#linkA {
+    padding: 1em;
+    color: #070707;
+}
+
+/*efeito menu*/
+a#linkA:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #cfa151e7;
+}
+
+
+input.formularioInput {
+    display: inline-block;
+}
+
+p.title-mvv {
+    font-size: 1.2em;
+}
+
+ /*foto do logempr*/
+ .logoempresa {
+    width: 50px; /*tamano da foto*/
+    margin: 0 0px 0px 0 ;
+    text-align: center;
+  }
+
+
+/*///////MODO MOBILE///////*/
+
+@media (max-width: 980px) {
+
+    #primeiro-slide {
+    width: 100%;
+    height: 300px;
+    background: url(../imagens/banner\ 01.jpg) no-repeat center center #cfa151e7;
+    }
+
+    #segundo-slide {
+        width: 100%;
+        height: 300px;
+        background: url(../imagens/banner\ 02.jpg) no-repeat center center #cfa151e7;
+    }
+
+}
+
+@media (max-width: 780px) {
+
+    #primeiro-slide {
+    width: 100%;
+    height: 300px;
+    background: url(../imagens/banner\ 01.jpg) no-repeat center center #cfa151e7;
+    }
+
+    /*cor fundo do 2 slide*/
+    #segundo-slide {
+        width: 100%;
+        height: 300px;
+        background: url(../imagens/banner\ 02.jpg) no-repeat center center #cfa151e7;
+    }
+
+    #servicos-titulo {
+        text-align: center;
+    }
+    .video {
+        width: 360px;
+        margin: 2em auto;
+        text-align: center;
+}
+}
+
+@media (max-width: 576px) {
+
+    #caixa-menu-mobile #linkA {
+        width: 50%;/*comprimento do menu no celular*/
+        color: rgb(255, 255, 255);
+        background-color: #cfa151e7;
+        display: inline-block;
+        margin: 0.2em 0;
+        text-align: center;
+    }
+
+
